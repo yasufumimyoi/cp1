@@ -1,0 +1,23 @@
+.campaign {
+  padding-bottom: 90px;
+
+  &__inner {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    .sp {
+      display: none;
+    }
+
+    .hp {
+      display: block;
+    }
+
+    &__inner {
+      width: 1000px;
+      margin: 0 auto;
+    }
+  }
+}

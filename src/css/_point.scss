@@ -1,0 +1,48 @@
+.point {
+  padding: 20px 0 60px;
+
+  &__ttl {
+    width: 300px;
+    margin: 0 auto 5px;
+  }
+
+  &__inner {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  &__content {
+    margin-bottom: 5px;
+  }
+
+  &__content:last-child {
+    margin-bottom: 0px;
+  }
+
+  @include medium {
+    padding: 80px 0 100px;
+
+    .sp {
+      display: none;
+    }
+
+    .hp {
+      display: block;
+    }
+
+    &__ttl {
+      width: 600px;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+
+    &__inner {
+      width: 1000px;
+      margin: 0 auto;
+    }
+
+    &__content {
+      margin-bottom: 50px;
+    }
+  }
+}

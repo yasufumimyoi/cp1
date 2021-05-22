@@ -1,0 +1,34 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/images/hp/splash_bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.loader img {
+  display: block;
+}
+
+.logo {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.msg {
+  margin-bottom: 30px;
+}
+
+.spinner {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}

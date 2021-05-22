@@ -1,0 +1,44 @@
+.forecast {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+
+  &__map {
+    height: 380px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  &__info {
+    position: absolute;
+    top: 0;
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+  }
+
+  @include medium {
+    width: 1000px;
+    padding-bottom: 100px;
+
+    .sp {
+      display: none;
+    }
+
+    .hp {
+      display: block;
+    }
+
+    &__map {
+      height: 700px;
+      margin-bottom: 50px;
+    }
+
+    &__close {
+      width: 103%;
+    }
+  }
+}

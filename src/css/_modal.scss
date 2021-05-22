@@ -1,0 +1,24 @@
+.remodal {
+  background-color: #f4f4f4;
+  border-radius: 6px;
+
+  h1 {
+    background-color: #20559a;
+    padding: 10px;
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  &__box {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  a {
+    display: block;
+    border-radius: 6px;
+    width: 280px;
+    margin: 0 auto;
+  }
+}

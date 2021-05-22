@@ -1,0 +1,12 @@
+.top-jump {
+  position: fixed;
+  bottom: 95px;
+  right: 10px;
+  width: 63px;
+  z-index: 30;
+
+  @include medium {
+    bottom: 100px;
+    right: 0;
+  }
+}

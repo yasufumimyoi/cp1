@@ -1,0 +1,51 @@
+$primaryColor: #1c2d67;
+
+$size-s: 510px;
+$size-md: 700px;
+$size-lg: 1000px;
+
+@mixin small {
+  @media only screen and (min-width: $size-s) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media only screen and (min-width: $size-md) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: $size-lg) {
+    @content;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-img {
+  background-image: url(../assets/images/hp/splash_bg.png);
+}
+
+.bg-color {
+  background-color: $primaryColor;
+}
+
+.hp {
+  display: none;
+}

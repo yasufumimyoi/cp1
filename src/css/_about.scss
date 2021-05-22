@@ -1,0 +1,35 @@
+.about {
+  position: relative;
+  padding: 40px 0px;
+
+  &__ttl {
+    width: 300px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__content {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 100px 0px;
+
+    .sp {
+      display: none;
+    }
+
+    .hp {
+      display: block;
+    }
+
+    &__ttl {
+      width: 600px;
+      margin: 0 auto;
+      top: -60px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.sns {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      color: #1b2d67;
+      margin-right: 20px;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__icon {
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  @include medium {
+    padding: 30px;
+  }
+
+  p {
+    font-size: 1.9rem;
+  }
+
+  &__icon {
+    img {
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    img:last-child {
+      margin-right: 0px;
+    }
+  }
+}
