@@ -22,6 +22,11 @@ $size-lg: 1000px;
   }
 }
 
+@function sp($pxValue) {
+  $spBreakPoint: 766;
+  @return (($pxValue / $spBreakPoint) * 100) + vw;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -40,6 +45,7 @@ a {
 
 .bg-img {
   background-image: url(../assets/images/hp/splash_bg.png);
+  background-size: contain;
 }
 
 .bg-color {
