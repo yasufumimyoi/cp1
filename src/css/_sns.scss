@@ -23,21 +23,21 @@
 
   @include medium {
     padding: 30px;
-  }
 
-  p {
-    font-size: 1.9rem;
-  }
-
-  &__icon {
-    img {
-      width: 60px;
-      height: 60px;
-      margin-right: 20px;
+    p {
+      font-size: 1.9rem;
     }
 
-    img:last-child {
-      margin-right: 0px;
+    &__icon {
+      img {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+      }
+
+      img:last-child {
+        margin-right: 0px;
+      }
     }
   }
 }
